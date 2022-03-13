@@ -29,7 +29,7 @@ func hexExcodingStringConv([]byte) string{
 }
 
 //generateUUID4 generates RFC 4122 version 4 UUID.
-func generateUUID4() string {
+func GenerateUUID4() string {
 	rand.Seed(time.Now().UnixNano())
 	for i:=0; i<16; i++ {
 		r1 := rand.Intn(255)
