@@ -2,7 +2,6 @@ package uuidv4
 
 import (
 	"encoding/hex"
-	"fmt"
 	"math/rand"
 	"time"
 )
